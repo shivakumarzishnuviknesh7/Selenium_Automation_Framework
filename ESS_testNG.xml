@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="time_application.listener.Listeners" />
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		
+		<classes>
+			<class name="time_application.manual_key_in_and_out_ess.Giving_Time_Entry"></class>
+			<class name="time_application.manual_key_in_and_out_ess.Home_Suite"></class>
+			<class name="time_application.manual_key_in_and_out_ess.Time_Records_Suite" />
+			<class name="time_application.manual_key_in_and_out_ess.Time_Edit_Testcases" />
+			<class name="time_application.manual_key_in_and_out_ess.Over_Time_Testcases" />
+			<class name="time_application.manual_key_in_and_out_ess.Short_Hours_Testcases"></class>
+			<class name="time_application.manual_key_in_and_out_ess.Email_Validation_Testcases" />
+			<class name="time_application.manual_key_in_and_out_ess.Download_Testcases" />
+			<class name="time_application.manual_key_in_and_out_ess.Bank_Hours_Suite" />
+			<class name="time_application.manual_key_in_and_out_ess.Bank_Approval_From_Manager"></class>
+			<class name="time_application.manual_key_in_and_out_ess.Download_Testcases"/>
+			<class name="time_application.manual_key_in_and_out_ess.Allowance_Testcases"/>
+		</classes>
+		
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
